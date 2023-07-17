@@ -1,0 +1,82 @@
+.flex-container-items{
+    font-family: "Quicksand";
+    display: flex;
+    width: 50%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    .elemento-items{
+        width: 100%;
+        background: white;       
+        padding: 20px 0px;
+        margin-block-start: 2.5em;
+
+        a{
+            text-decoration: none;
+            color: #7a7a7a;                 
+            .item{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-inline: 20px;
+                justify-content: space-between;
+    
+                .imagen{
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width:140px;
+                    }
+                }
+                .title-container{
+                    width: 50%;
+                    padding: 10px;
+                    text-align: left;
+
+                    .precio-icono-container{
+                        display: flex;
+
+                        .precio{
+                            font-size: 1.3em;
+
+                        }
+                    }
+                    
+                    .titulo{
+                        display: block;
+                        margin-block-start: 10px; 
+                        word-wrap: break-word;
+                        overflow:auto;
+                    }           
+                    .condicion{
+                        color: #24aa1f;
+                    } 
+                } 
+                .estado{
+                    width: 20%;
+                    font-size: 13px;
+                    font-weight: lighter;
+                    text-align: right;
+                }
+            }
+            :hover{
+                cursor: pointer;
+            }   
+        }
+        a:hover{
+            color: #4d4b4b;
+        }    
+        .separador{
+            width: 100%;
+            hr{
+                border: #eeeded solid 1px;
+                margin: 20px;
+            }
+        }
+    }
+}

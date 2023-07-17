@@ -1,0 +1,81 @@
+$font-color: #7a7a7a;
+.flex-container-item-detail{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+
+    .details-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        .img-container{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        .labels-details{
+            margin: 20px;
+            .condition-details{
+                font-size: 13px;
+                color: $font-color;
+            }
+            .titulo-details{
+                font-size: 22px;
+                p{
+                    margin-block: 5px;
+                }
+            }
+            .price-container{
+                display: flex;
+                flex-direction: row;
+                margin-block: 10px;
+                .amount-label{
+                    font-size: 35px;
+                }
+                span{
+                    margin-block: 6px;
+                    font-weight: lighter;
+                }
+            }
+            .label-envio-gratis{
+                color: #24aa1f;
+                margin-block: 20px;
+            }
+            .boton-comprar{
+                display: block;
+                width: 60%;
+                padding: 8px;
+                font-weight: lighter;
+                align-self: center;
+                font-size: 20px;
+                color: white;
+                background-color: #4485ff;
+                border-radius:5px; 
+                border:none; 
+                margin: 50px auto;
+            }
+        }    
+    }
+    .descripcion-container{
+        margin: 10px 30px;
+        .titulo-descripcion{
+            font-size: 25px;
+        }
+        .texto-descripcion{
+            color:$font-color;
+        }
+    }
+}
+.categorias{
+    font-size: 12px;
+    color: $font-color;
+    margin: 0 auto;
+    padding-block: 15px;
+    width: 50%;
+}

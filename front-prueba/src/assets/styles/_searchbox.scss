@@ -1,0 +1,75 @@
+$buscador_radius: 3px;
+$button_transition: .10s;
+.caja{
+   background-color: #ffe600;
+   width: 100%;
+
+   .flex-container-header{
+      width: 50%;
+      display: flex;
+      padding: 10px 0;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      
+      .elemento1{
+         width: 10%;
+         display: flex;
+
+         img{
+            width: 50px;
+         }  
+      }
+      .elemento2{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         width: 90%;
+         .form-container{
+            display: flex;
+            width: 100%;
+
+            input{
+               width: 100%;   
+               border: none;
+               font-size: 10pt;
+               float: left;
+               padding-left: 15px;
+               -webkit-border-top-left-radius: $buscador_radius;
+               -moz-border-top-left-radius: $buscador_radius;
+               -webkit-border-bottom-left-radius: $buscador_radius;
+               -moz-border-bottom-left-radius: $buscador_radius;
+               border-top-left-radius: $buscador_radius; 
+               border-bottom-left-radius: $buscador_radius; 
+   
+            }
+            .btn{
+               -webkit-border-top-right-radius: $buscador_radius;
+               -webkit-border-bottom-right-radius: $buscador_radius;
+               -moz-border-radius-topright: $buscador_radius;
+               -moz-border-radius-bottomright: $buscador_radius;
+               border-top-right-radius: $buscador_radius;
+               border-bottom-right-radius: $buscador_radius;
+               width: 40px;
+               height: 100%;
+               cursor: pointer;
+               background-color: #e5e5e5;
+               border: none;
+               i{
+                  //border: none;
+                  font-size: 15px; 
+                     
+               }   
+            }
+            .btn:hover{
+               background: #7c7b7b;
+            }   
+            
+            
+            
+         }   
+      }
+   }
+}

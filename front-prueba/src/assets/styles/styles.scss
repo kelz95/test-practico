@@ -1,0 +1,32 @@
+@use "./searchbox";
+@use "./items";
+@use "./itemDetail";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  font-family: "Quicksand";
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+	padding: 0;
+  font-family: "Quicksand", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue",  "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icono-freeShip{
+  display: inline;
+  margin-inline: 10px;
+  background-color: #24aa1f;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+
+}
